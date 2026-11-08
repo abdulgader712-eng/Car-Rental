@@ -15,7 +15,7 @@ A PHP and MySQL web application for a car rental business. It provides a custome
 - Customer registration, sign-in, profiles, and booking history
 - Booking and testimonial workflows
 - Admin dashboard for vehicles, brands, bookings, users, and pages
-- SQL schema and example vehicle catalogue
+- SQL schema and example vehicle and brand catalogue
 
 ## Local setup
 
@@ -24,7 +24,7 @@ A PHP and MySQL web application for a car rental business. It provides a custome
 3. Configure `DB_HOST`, `DB_USER`, `DB_PASS`, and `DB_NAME` in the PHP environment used by your web server. The included config files use local development defaults when variables are not set.
 4. Place the project in your web server's document root and open it through the local server.
 
-The SQL file intentionally excludes personal customer, contact, booking, and admin account records. It includes the database schema and example vehicle, brand, and page content. No default administrator account is provided.
+The SQL file intentionally excludes personal customer, contact, booking, and admin account records. It includes the database schema and an example vehicle and brand catalogue. No default administrator account is provided.
 
 ## Notes
 
